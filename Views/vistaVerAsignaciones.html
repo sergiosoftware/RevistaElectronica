@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="icon" href="../Imagenes/icon175x175.ico">
+		<title>Revista Electónica UDC</title>
+	</head>
+	<body class="body">
+		<!--<header>
+			<nav class="navbar navbar-inverse navba-static-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+							<span class="sr-only">Desplegar/Ocultar Menú</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<p class="navbar-brand">Revista jd&sc</p>
+					</div>
+					<!--Inicio menu--
+					<div class="collapse navbar-collapse" id="navegacion-fm">
+						<dd class="nav navbar-nav">
+							<li><a href="index1.html">Inicio</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Usuarios<span class="caret"></span></a>
+								<dd class="dropdown-menu" role="menu">
+									<li><a href="vistaIAutor.html">Autor</a></li>
+									<li class="divider"></li>
+									<li><a href="vistaIEvaluador.html">Evaluador</a></li>
+									<li class="divider"></li>
+									<li><a href="vistaIEditor.html">Editor</a></li>
+								</dd>
+							</li>
+							<li class="active"><a href="#">Ver publicaciones</a></li>
+						</dd>
+						<form action="" class="navbar-form navbar-right" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Buscar...">
+							</div>
+							<button type="submit" class="btn btn-info">
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</header>-->
+		<section class="consultas ">
+			<div class="container">
+				<h1 class="titulo-blog" align="center">Artículos Asignados</h1>
+			</div>
+		</section>
+		<section class="main container">
+			<div class="row">
+				<section class="posts col-md-9">                   
+                  	<div class="col-xs-12 col-md-12 col-lg-12">
+                  	    <div class="container col-xs-12 col-md-12 col-lg-12">
+                  	        <button class="btn btn-info" name="consultar" id="consultarArticulos">Listar Articulos</button>
+                  	        <br>
+                  	        <br>
+                  	        <div class="table-responsive">
+                  	            <table id="Contenido" class="table table-striped table-bordered table-hover table-condensed col-md-12 col-lg-12 col-xs-12" >
+                                <th class="success">ARTÍCULO</th>
+                                <th class="success">TITULO</th>
+                                <th class="success">TEMAS</th>
+                                <th class="success">ARCHIVO</th>
+                                <th class="success">ESTADO</th>
+                                <th class="success">DESCARGAR <span class="glyphicon glyphicon-download-alt"></span></th>
+                                <th class="success">ELEGIR</th>
+                                </table>
+                  	        </div>              	        
+                        </div>
+                        <form role="form" action="" method="post" class="form-horizontal">
+                            <div class="container col-xs-12 col-md-12 col-lg-12">
+                                <h2 class="subtitulos-blog" align="center">COMENTARIOS Y SUGERENCIAS ACERCA DEL ARTÍCULO</h2>
+                                <br>
+                                <br>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-3">Comentarios:</label>
+                                    <div class="col-xs-9">
+                                        <textarea class="form-control" name="texto" id="comentarios" placeholder="Comentarios..."></textarea>
+                                    </div>
+                                </div> 
+                                <div class="form-group">
+                                    <label class="control-label col-xs-3">Sugerencias:</label>
+                                    <div class="col-xs-9">
+                                        <textarea class="form-control" name="texto" id="sugerencias" placeholder="Sugerencias..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-3">Calificación:</label>
+                                    <div class="col-xs-9">
+                                        <input type="number" class="form-control" name="calificacion" id="calificacion" min="1" max="5" placeholder="1 A 5, siendo 1 la peor calificación y 5 la mejor...">
+                                    </div>
+                                </div> 
+                                <div class="form-group">
+                                    <div class="col-xs-offset-3 col-xs-9">
+                                        <button type="button" class="btn btn-danger" name="enviarC" id="enviarC">Enviar Calificación <span class="glyphicon glyphicon-edit"></span></button>
+								    </div>
+				                </div> 	                
+                            </div>
+                        </form>                        		    
+					</div>					
+				</section>
+			</div>			
+		</section>
+		<script src="../Jquery/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../Boostrap/js/bootstrap.min.js"></script>
+
+	</body>
+	<link rel="stylesheet" href="../Boostrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../Css/estilos.css">
+</html>

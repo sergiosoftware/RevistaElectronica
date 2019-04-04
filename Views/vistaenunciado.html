@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="icon" href="../Imagenes/icon175x175.ico">
+		<title>Revista Electónica UDC</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse navba-static-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+							<span class="sr-only">Desplegar/Ocultar Menú</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<p class="navbar-brand">Revista jd&sc</p>
+					</div>
+					<!--Inicio menu-->
+					<div class="collapse navbar-collapse" id="navegacion-fm">
+						<dd class="nav navbar-nav">
+							<li ><a href="index1.html">Inicio</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Usuarios<span class="caret"></span></a>
+								<dd class="dropdown-menu" role="menu">
+									<li><a href="vistaIAutor.html">Autor</a></li>
+									<li class="divider"></li>
+									<li><a href="vistaIEvaluador.html">Evaluador</a></li>
+									<li class="divider"></li>
+									<li><a href="vistaIEditor.html">Editor</a></li>
+								</dd>
+							</li>
+							<li><a href="vistaVPublicaciones.html">Ver publicaciones</a></li>
+						</dd>
+						<form action="" class="navbar-form navbar-right" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Buscar...">
+							</div>
+							<button type="button" class="btn btn-info" id="botonbusqueda" name="botonbusqueda">
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section class="jumbotron">
+			<div class="container">
+				<h1 class="titulo-blog">Revista Electrónica jd&sc</h1>
+				<p class="subtitulo-blog">Universidad de Caldas</p>
+			</div>
+		</section>
+		<section class="main container">
+			<div class="row">
+				<section class="posts col-md-9">
+					<div class="miga-de-pan">					
+						<ol class="breadcrumb">
+							<li><script type="text/javascript">
+							var d=new Date();
+							var m=d.getMonth()+1;
+							document.write(' '+d.getDate(),'/ '+m,'/ '+d.getFullYear());	
+							document.write(" "+d. getHours(),':'+d. getMinutes());
+						</script></li>	
+						</ol>
+					</div>
+					
+					<article class="post clearfix">
+						<p class="post-contenido text-justify miaEnunciado">Este sistema de software servirá para administrar una nueva revista electrónica para el Departamento de
+							Ingeniería de Sistemas de la Universidad Caldas. La idea es que el sistema maximice la productividad del editor de la revista, brindándole
+							un conjunto de herramientas que automaticen la evaluación de los artículos y su eventual publicación.<br> 
+							El sistema debe permitir al editor de la revista la comunicación y gestión con un grupo de pares evaluadores y autores para publicar
+							artículos en una página web de acceso público. El software facilitará la comunicación entre editor de la revista los pares y autores.
+							Los lectores de la revista accederán a la página Web para buscar y descargar los artículos que les interesen de manera libre y gratuita.
+							Los autores enviarán sus artículos mediante el sistema al editor de la revista utilizando un enlace   “Enviar Artículo” que activará la aplicación.   Es  posible  que  este  proceso  sea ejecutado  más  de  una  vez  si  es  solicitada  una  reescritura  o  corrección  del  artículo  con  base  en  las evaluaciones  de  los  pares  y  la  decisión  del  editor.  Si el artículo es aceptado, el autor recibirá una notificación.<br> 
+							Igualmente, si el artículo es rechazado, recibirá una notificación con una copia de las evaluaciones de los pares. La última opción es que
+							el articulo sea condicionado a unos cambios sugeridos por los evaluadores, en cuyo caso, las evaluaciones serán enviadas junto con instrucciones para enviar el artículo revisado.<br> 
+							Los pares evaluadores recibirán los artículos en una opción del sistema que dice listar artículos. Una vez evaluado el artículo se debe activar un enlace para enviar las sugerencias o correcciones del artículo al editor de la revista. <br>
+							El editor de la revista es quien tiene más interés en el sistema y, por consiguiente, quien más funcionalidad obtiene del software.   Por  un  lado  necesita  funcionalidad  básica  para  adicionar,  modificar  y  borrar  los  datos  de autores, pares, evaluaciones y artículos. Se podrá solicitar una modificación si el editor de la revista detecta que la información archivada del autor  ha  cambiado.   La  información  que  se  requiere  del  autor  es:  su  nombre completo,  su  dirección,  su  teléfono,  su  correo  electrónico  y  su  afiliación  (Departamento,  Institución.) Para los pares evaluadores además de la información del autor se pide estudios realizados como especializaciones, maestrías y postgrados.<br>
+							Con respecto a los artículos, el autor ingresa al sistema con su usuario y clave y los adiciona.   Esta  adición  incluye  un  identificador(autonumerico),  el  título,  tema(s),  palabra(s) clave(s) y resumen del artículo, junto con un enlace para subir el documento. Los artículos como tal no se archivan en la  base  de  datos,  estos  son  guardados  por  el  sistema en  el  disco  duro  del servidor en una carpeta llamada artículos con  un  nombre  que  equivale  al identificador asignado en el sistema. Al entrar  los  datos  de  un  artículo,  se  le  debe  asignar un  estado  que  inicialmente  es  “recibido”.<br> 
+							Posteriormente,  el  editor de la revista accede al sistema y puede visualizar los diferentes artículos y selecciona cada uno de estos y accede  a  la  función de  seleccionar  par,  que  despliega  la  lista  de  pares evaluadores  y  donde  debe  seleccionar  tres  por  artículo.  En otro momento, el editor de la revista puede visualizar la evaluación que realizo cada uno de los pares(donde el sistema realiza un promedio de calificación y si es mayor a 4 es aprobado si es mayor a 3  menor a 4  pendiente con cambios y menor a 3 no aprobado). Una vez el artículo se pueda visualizar en las evaluaciones para a revisado.<br>
+							En cualquier momento el editor de la revista puede revisar el estado de los artículos registrados en el sistema.  los que  tengan  estado  “recibido”  puede  asignarles  evaluador.   A los que tengan estado revisado puede visualizar la decisión de los pares (“aceptado”, “rechazado”, “pendiente”).   En cualquiera de los tres casos, la decisión activa un vínculo que permite enviar la notificación al autor y le permite también enviar los comentarios que realizaron cada uno de los pares.<br>
+							Además por si hay cualquier duda que tenga el editor de la revista de la revisión de un artículo el sistema debe tener un chat entre los pares evaluadores y el editor para comentar las dudas entre ellos.<br>
+							Si el artículo está en estado aceptado, el editor puede decidir publicarlo en la página web del sistema que es de acceso público.
+							<p class="post-contenido text-justify miaEnunciado"><strong>Algunas condiciones para la construcción de este software son:</strong></p> 
+							 
+							<p class="post-contenido text-justify miaEnunciado">
+							•	La base de datos deberá estar implementada en una base de datos de libre distribución o en MySQL o postgreSQL. 
+							<p class="post-contenido text-justify miaEnunciado">
+							•	herramientas  adicionales:   Esto  implica  que  el  acceso  a  la  base  de  datos  para  la  aplicación  (cuya interface será vía Web para todos los usuarios, incluido el editor) debe hacerse con un mecanismo que permita usar lenguajes de programación de libre distribución (ejemplo php, Ruby, Phyton).
+							<p class="post-contenido text-justify miaEnunciado">
+							•	Utilizar en todo el sistema Css y boostrap para las vistas.
+							<p class="post-contenido text-justify miaEnunciado">
+							•	Jquery para que el sistema trabaje de forma asíncrona.
+							<p class="post-contenido text-justify miaEnunciado">
+							•	El diseño de la aplicación debe ser agradable y amigable, utilizar colores, tipos de letra, tamaño de letra, etc.
+							<p class="post-contenido text-justify miaEnunciado">
+							•	Se recomienda Node js para la construcción del chat(básico).
+							<p class="post-contenido text-justify miaEnunciado">
+							•	Se debe trabajar bajo  patrón MVC.
+							<p class="post-contenido text-justify miaEnunciado">
+							•	Utilizar además tecnologías como DHTML, JavaScript y Prototype en toda la aplicación.
+							<p class="post-contenido text-justify miaEnunciado">
+						</p>				
+					</article>
+					
+				</section>
+				<aside class="col-md-3 hidden-xs hidden-sm Evaluador">
+					<h4 class="active">Documentación</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item active">Enunciado del proyecto</a>
+						<a href="vistaCDUso.html" class="list-group-item">Diagrama de casos de uso</a>
+						<a href="vistaER.html" class="list-group-item">Diagrama ER</a>
+						<a href="vistaDClases.html" class="list-group-item">Diagrama de clases</a>
+					</div>										
+				</aside>
+				<br>
+				<aside class="col-md-3 hidden-xs hidden-sm">
+				    <div class="col-xs-12 col-md-12 col-lg-12 ">
+                  	    <div class="container col-xs-12 col-md-12 col-lg-12">
+                  	        <div class="table-responsive">
+                                <br>
+                  	        </div>              	        
+                        </div>			    
+					</div>
+				</aside>
+				<aside class="col-md-3">
+                    <div class="table-responsive Evaluador">
+                  	    <table id="Contenido" class="table table-striped table-bordered table-hover table-condensed">
+                  	     </table>
+                  	 </div> 	
+				</aside>
+			</div>			
+		</section>
+		
+		<footer class="Evaluador">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<p>Segio Cardona - Universidad de Caldas</p>
+					</div>
+					<div class="col-xs-6">
+						<dd class="list-inline text-right">
+							<li><a href="#">Arriba</a></li>
+							<li><a href="#">Contacto</a></li>
+						</dd>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="../Jquery/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../Boostrap/js/bootstrap.min.js"></script>
+        <script src="../Jquery/jquery.backstretch.min.js" type="text/javascript"></script>
+	</body>
+	<link rel="stylesheet" href="../Boostrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../Css/estilos.css">
+	<script>
+        $(document).ready(function(){
+        $.backstretch([
+        "../Imagenes/10.jpg",
+        "../Imagenes/6.jpg",
+        "../Imagenes/9.jpg",
+        "../Imagenes/8.jpg"
+        ],{
+        fade:750,
+        duration:4000
+        });
+        });
+    </script>
+</html>

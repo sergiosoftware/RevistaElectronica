@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="icon" href="../Imagenes/icon175x175.ico">
+		<title>Revista Electónica UDC</title>
+	</head>
+	<body class="body">
+		<!--<header>
+			<nav class="navbar navbar-inverse navba-static-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+							<span class="sr-only">Desplegar/Ocultar Menú</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<p class="navbar-brand">Revista jd&sc</p>
+					</div>
+					<!--Inicio menu--
+					<div class="collapse navbar-collapse" id="navegacion-fm">
+						<dd class="nav navbar-nav">
+							<li><a href="index1.html">Inicio</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Usuarios<span class="caret"></span></a>
+								<dd class="dropdown-menu" role="menu">
+									<li><a href="vistaIAutor.html">Autor</a></li>
+									<li class="divider"></li>
+									<li><a href="vistaIEvaluador.html">Evaluador</a></li>
+									<li class="divider"></li>
+									<li><a href="vistaIEditor.html">Editor</a></li>
+								</dd>
+							</li>
+							<li class="active"><a href="#">Ver publicaciones</a></li>
+						</dd>
+						<form action="" class="navbar-form navbar-right" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Buscar...">
+							</div>
+							<button type="submit" class="btn btn-info">
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</header>-->
+		<section class="consultas ">
+			<div class="container">
+				<h1 class="titulo-blog" align="center">MODIFICAR REGISTRO DE ARTÍCULO</h1>
+			</div>
+		</section>
+		<section class="main container">
+			<div class="row">
+				<section class="posts col-md-9"> 
+                  	<div class="col-xs-12 col-md-12 col-lg-12 ">
+                        <div class="container col-xs-12 col-md-12 col-lg-12">
+                            <div class="btn-group bus input-group-lg form-group ">
+                                <button class="btn btn-info btn-lg btn-block" name="verArticulo" id="verArticulo">Listar Artículos</button>
+                            </div>
+                            <div class="table-responsive">
+                  	            <table id="Contenido1" class="table table-striped table-bordered table-hover table-condensed col-md-12 col-lg-12 col-xs-12" >
+                                <th class="success" >NÚMERO DE ARTÍCULO</th>
+                                <th class="success">TÍTULO</th>
+                                <th class="success">TEMA(S)</th>
+                                <th class="success">PALABRA(S) CLAVE(S)</th>
+                                <th class="success">USUARIO</th>
+                            </table>
+                  	        </div>
+                            <div class="container form-bottom">
+			                    <form role="form" action="" method="post" class="form-horizontal"> 
+                                    <div class="form-group">
+                                        <label class="control-label col-xs-3">Número de Artículo:</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" class="form-control" id="articulo" name="articulo" placeholder="Artículo para modificar...">
+                                        </div>
+                                    </div>       
+                                    <div class="form-group">
+                                        <label class="control-label col-xs-8 extra">DATOS NUEVOS DEL ARTÍCULO</label>
+                                    </div>				
+                                    <div class="form-group">
+                                        <label class="control-label col-xs-3">Titulo Nuevo:</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" class="form-control" id="nuevoTi" name="nuevoTi" placeholder="Titulo...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-xs-3">Tema Nuevo:</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" class="form-control" id="nuevoTema" name="nuevoTema" placeholder="Tema...">
+                                        </div>
+                                    </div>				
+                                    <div class="form-group">
+                                        <label class="control-label col-xs-3">Palabra(s) Clave(s) Nueva(s):</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" class="form-control" id="nuevaClave" name="nuevaClave" placeholder="Palabra Clave">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-offset-3 col-xs-9">
+                                            <button type="button" class="btn btn-danger" name="ModificarArticulo" id="ModificarArticulo">Modificar <span class="glyphicon glyphicon-pencil"></span></button>	
+                                        </div>
+                                    </div>
+                                </form>
+		                    </div>              	        
+                        </div>			    
+					</div>					
+				</section>
+			</div>			
+		</section>
+		<script src="../Jquery/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../Boostrap/js/bootstrap.min.js"></script>
+		<script src="../Js/jsEditor.js" type="text/javascript" language="javascript1.5"></script>		
+	</body>
+	<link rel="stylesheet" href="../Boostrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../Css/estilos.css">
+</html>
+
+
